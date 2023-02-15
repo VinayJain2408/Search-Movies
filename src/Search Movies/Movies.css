@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(71, 201, 208);
+}
+
+.Movies_flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.Movies_box{
+    /* height: 280px; */
+    width: 230px;
+    border: 2px solid ;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: brown;
+}
+
+.Movies_box img{
+    height: 220px;
+    width: 210px;
+}
+.box{
+    text-align: center;
+    margin-top: 1rem;
+}
+.box input {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+.box button{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    background-color: rgb(42, 246, 15);
+    color: rgb(255, 0, 0);
+}
